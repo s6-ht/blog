@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "以文字的形式记录学到的知识",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "js、vue、css"
+  ],
+  "author": "s6-ht",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.3",
+    "vuepress": "^1.7.1"
+  }
+}
