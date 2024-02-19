@@ -15,7 +15,12 @@ export default definePlumeNotesItemConfig({
     },
     {
       dir: "数组/字符串",
-      items: ["多数元素", "轮转数组", "买卖股票的最佳时机"],
+      items: [
+        "多数元素",
+        "轮转数组",
+        "买卖股票的最佳时机",
+        "最后一个单词的长度",
+      ],
     },
     {
       dir: "贪心",
@@ -27,7 +32,7 @@ export default definePlumeNotesItemConfig({
     },
     {
       dir: "二分查找",
-      items: [],
+      items: ["搜索插入位置", "搜索二维矩阵"],
     },
     {
       dir: "树",
